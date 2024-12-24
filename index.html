@@ -12,8 +12,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       /* Spinner styles */
-      #spinner {
-        display: none;
+        #spinner {
+         display: none;
         width: 40px;
         height: 40px;
         border: 4px solid rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@
         border-radius: 50%;
         animation: spin 1s linear infinite;
         margin: 20px auto;
-      }
+      } 
 
       /* Spinner animation */
       @keyframes spin {
@@ -32,6 +32,8 @@
           transform: rotate(360deg);
         }
       }
+    
+
     </style>
   </head>
   <body>
@@ -256,7 +258,7 @@
           class="w-full px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button
-          onclick="handleSearch()"
+          onclick="searchTwoBtn()"
           type="submit"
           class="px-4 py-2 bg-blue-500 text-white font-semibold rounded-r-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
@@ -387,7 +389,8 @@
 
    
 
-    
+      <!-- ... -->
+    </div>
 
     <script src="./index.js"></script>
   </body>
